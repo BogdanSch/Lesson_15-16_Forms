@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="main__wrap">
+                <!-- <form action="" method="POST">
+                    <label for="name">Имя:teacherLudMila2021 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</label>
+                    <input id="name" type="text" placeholder="Введите Ваше имя">
+                    <label>
+                        Пароль
+                        <input type="password" placeholder="Введите пароль">
+                    </label>
+                    <input type="password" placeholder="Введите пароль">
+                    <input type="number" placeholder="Сколько Вам лет">
+                    <input type="email" placeholder="Введите Ваш email">
+                    <input type="tel" placeholder="Введите Ваш телефон">
+                    <input type="date">
+                    <input type="time">
+                    <input type="range">
+                    <textarea name="" id="" cols="30" rows="3"></textarea>
+                    <input type="checkbox" checked>
+                    <input type="checkbox">
+                    <input type="radio">
+                    <select name="" id="">
+                        <option value="январь" disabled>1 elem</option>
+                        <option value="февраль">2 elem</option>
+                        <option value="">3 elem</option>
+                        <option value="" selected>4 elem</option>
+                    </select>
+                </form> -->
+                <div class="form">
+                    <div class="box box--left">
+                        <p class="title">Contact Us</p>
+                        <div class="link__list">
+                            <a href="" class="link__item">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="" class="link__item">
+                                <svg>
+                                    <use xlink:href="#twitter"></use>
+                                </svg>
+                            </a>
+                            <a href="" class="link__item">
+                                <svg>
+                                    <use xlink:href="#linkedin"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <p>or use our contact form below</p>
+                        <form action="" method="POST">
+                            <input type="email" placeholder="Email" required>
+                            <input type="tel" placeholder="Phone">
+                            <label for="textarea-1">Type your message here:</label>
+                            <textarea name="" id="textarea-1" cols="30" rows="5"></textarea>
+                            <a href="" class="help">Need additional help?</a>
+                            <input type="submit" value="contact me">
+                        </form>
+                    </div>
+                    <div class="box box--right">
+                        <p class="title title--white">Hello, User</p>
+                        <p>If you want to know more info about our project than</p>
+                        <button class="btn--stroke">
+                            <svg>
+                                <use xlink:href="#arrow"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<svg style="display: none;">
+    <symbol id="arrow" width="16" height="8" viewBox="0 0 16 8">
+        <path d="M0.646445 3.64645C0.451183 3.84171 0.451183 4.15829 0.646445 4.35356L3.82843 7.53554C4.02369 7.7308 4.34027 7.7308 4.53553 7.53554C4.7308 7.34027 4.7308 7.02369 4.53553 6.82843L1.70711 4L4.53553 1.17157C4.73079 0.976312 4.73079 0.65973 4.53553 0.464468C4.34027 0.269206 4.02369 0.269206 3.82843 0.464468L0.646445 3.64645ZM16 3.5L0.999999 3.5L0.999999 4.5L16 4.5L16 3.5Z" fill="white"/>
+    </symbol>
+    <symbol id="twitter" width="8" height="13" viewBox="0 0 8 13">
+        <path d="M7.542 11.532C7.266 11.736 6.924 11.892 6.516 12C6.12 12.096 5.7 12.144 5.256 12.144C4.104 12.144 3.21 11.85 2.574 11.262C1.95 10.674 1.638 9.81 1.638 8.67V4.692H0.144V2.532H1.638V0.174H4.446V2.532H6.858V4.692H4.446V8.634C4.446 9.042 4.548 9.36 4.752 9.588C4.968 9.804 5.268 9.912 5.652 9.912C6.096 9.912 6.474 9.792 6.786 9.552L7.542 11.532Z" fill="#697A79"/>
+    </symbol>
+    <symbol id="linkedin" width="17" height="15" viewBox="0 0 17 15">
+        <path d="M1.296 5.316H4.104V15H1.296V5.316ZM2.7 3.966C2.184 3.966 1.764 3.816 1.44 3.516C1.116 3.216 0.954 2.844 0.954 2.4C0.954 1.956 1.116 1.584 1.44 1.284C1.764 0.983999 2.184 0.833999 2.7 0.833999C3.216 0.833999 3.636 0.977999 3.96 1.266C4.284 1.554 4.446 1.914 4.446 2.346C4.446 2.814 4.284 3.204 3.96 3.516C3.636 3.816 3.216 3.966 2.7 3.966ZM12.5961 5.172C13.7961 5.172 14.7621 5.532 15.4941 6.252C16.2381 6.972 16.6101 8.04 16.6101 9.456V15H13.8021V9.888C13.8021 9.12 13.6341 8.55 13.2981 8.178C12.9621 7.794 12.4761 7.602 11.8401 7.602C11.1321 7.602 10.5681 7.824 10.1481 8.268C9.72806 8.7 9.51806 9.348 9.51806 10.212V15H6.71006V5.316H9.39206V6.45C9.76406 6.042 10.2261 5.73 10.7781 5.514C11.3301 5.286 11.9361 5.172 12.5961 5.172Z" fill="#697A79"/>
+    </symbol>
+    <symbol id="btn" width="100" height="42" viewBox="0 0 100 42">
+        <g>
+            <rect x="0.5" y="0.5" width="99" height="41" rx="20.5" stroke="white"/>
+            <path d="M42.6464 20.6464C42.4512 20.8417 42.4512 21.1583 42.6464 21.3536L45.8284 24.5355C46.0237 24.7308 46.3403 24.7308 46.5355 24.5355C46.7308 24.3403 46.7308 24.0237 46.5355 23.8284L43.7071 21L46.5355 18.1716C46.7308 17.9763 46.7308 17.6597 46.5355 17.4645C46.3403 17.2692 46.0237 17.2692 45.8284 17.4645L42.6464 20.6464ZM58 20.5L43 20.5L43 21.5L58 21.5L58 20.5Z" fill="white"/>
+        </g>
+    </symbol>
+</svg>
+
+
+</body>
+</html>
