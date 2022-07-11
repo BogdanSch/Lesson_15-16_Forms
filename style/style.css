@@ -21,7 +21,7 @@ body{
 }
 body:before{
     content: url(../img/Ellipse\ 10.png);
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
 }
