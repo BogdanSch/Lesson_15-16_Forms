@@ -17,7 +17,7 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: var(--bg);
-    overflow: hidden;
+    overflow-x: hidden;
 }
 body:before{
     content: url(../img/Ellipse\ 10.png);
